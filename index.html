@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Camacho – CV</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f3f4f7, #eaeef3);
+      color: #333;
+      margin: 0;
+      padding: 40px 0;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+      animation: fadeIn 0.7s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 3px solid #ff4f70;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #1a1a1a;
+    }
+
+    .subtitle {
+      color: #666;
+      font-weight: 400;
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+
+    .contact a {
+      color: #ff4f70;
+      text-decoration: none;
+    }
+
+    .section {
+      margin-top: 35px;
+    }
+
+    .section h2 {
+      color: #ff4f70;
+      font-weight: 600;
+      font-size: 1.3rem;
+      border-left: 5px solid #ff4f70;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: #fafafa;
+      padding: 15px 20px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #ff4f70;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Diego Camacho</h1>
+      <p class="subtitle">Diseñador Gráfico Digital · 19 años · CABA, Argentina</p>
+      <div class="contact">
+        📧 <a href="mailto:camachodiego009@gmail.com">camachodiego009@gmail.com</a><br>
+        📱 +54 9 11 5220-0754<br>
+        🎨 <a href="https://www.behance.net/gallery/217865267/identidad-de-evento" target="_blank">Portfolio en Behance</a>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Experiencia</h2>
+      <div class="card">
+        <b>Gestión de caja y ayudante de inventariado – Supermercado</b><br>
+        <small>2023–2024</small>
+      </div>
+      <div class="card">
+        <b>Gestión de caja y ayudante de inventariado – Indumentaria JPC</b><br>
+        <small>2024–2025</small>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Formación</h2>
+      <div class="card">
+        <b>Bachiller en Administración y Economía</b><br>
+        Instituto Árabe Islámico (2018–2023)
+      </div>
+      <div class="card">
+        <b>Curso en Diseño Gráfico Digital Avanzado</b><br>
+        Centro de E-learning, UTN (2023–2024)
+      </div>
+      <div class="card">
+        <b>Curso de Edición de Video con DaVinci Resolve</b><br>
+        Centro de E-learning, UTN (2025)
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <div class="skill">Adobe Photoshop</div>
+        <div class="skill">Adobe Illustrator</div>
+        <div class="skill">Canva</div>
+        <div class="skill">DaVinci Resolve</div>
+        <div class="skill">Blender</div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Diego Camacho — Portafolio Profesional
+    </footer>
+  </div>
+</body>
+</html>
