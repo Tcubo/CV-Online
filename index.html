@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,14 +22,21 @@
       background: #fff;
       padding: 50px;
       border-radius: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       animation: fadeIn 0.7s ease-out;
     }
 
     @keyframes fadeIn {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     header {
@@ -81,7 +89,7 @@
       padding: 15px 20px;
       border-radius: 12px;
       margin-bottom: 15px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
       transition: transform 0.2s ease;
     }
 
@@ -123,9 +131,6 @@
 
     /* Botón de descarga */
     .download-btn {
-      position: absolute;
-      top: 0;
-      right: 0;
       background: #ff4f70;
       color: white;
       border: none;
@@ -142,16 +147,18 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <header>
-      <button class="download-btn" id="downloadPDF">📄 Descargar PDF</button>
       <h1>Diego Camacho</h1>
       <p class="subtitle">Diseñador Gráfico Digital · 19 años · CABA, Argentina</p>
       <div class="contact">
         📧 <a href="mailto:camachodiego009@gmail.com">camachodiego009@gmail.com</a><br>
         📱 +54 9 11 5220-0754<br>
-        🎨 <a href="https://www.behance.net/gallery/217865267/identidad-de-evento" target="_blank">Portfolio en Behance</a>
+        🎨 <a href="https://www.behance.net/gallery/217865267/identidad-de-evento" target="_blank">Portfolio en
+          Behance</a>
+        <button class="download-btn" id="downloadPDF">📄 Descargar PDF</button>
       </div>
     </header>
 
@@ -205,5 +212,7 @@
     });
   </script>
 </body>
+
 </html>
+
 
